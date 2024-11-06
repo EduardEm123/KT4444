@@ -4,6 +4,168 @@
     padding: 0;
     font-family: Roboto, Arial, "sans-serif";
 }
+@media screen and (min-width: 280px) 
+{
+    header
+    {
+        width: 100%;
+        height: 100px;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 8vh;
+
+    }
+    .shapka
+    {
+        
+        width: 100%;
+        padding: 10PX;
+    }
+        header img
+        {
+            height: 60px;
+            width: 60px;
+            float: left;
+        }
+    
+        .NavContainer
+        {
+            width: 170px;
+            padding: 15px 20px;
+            float: right;
+        }
+            .NavContainer a
+            {
+                color: black;
+                padding: 10px 20px;
+                text-decoration: none;
+            }
+
+        body h1
+        {
+            text-align: center;
+            font-size: 30pt;
+            margin-bottom: 40px;
+        }
+    .main
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+        .opis
+        {
+            width: 300px;
+            font-size: 10pt;
+            text-align: center;
+            margin-bottom: 100px;
+            margin-top: 25px;
+            line-height: 30px;
+        }
+
+    .boxes
+    {
+        color: aliceblue;
+        font-size: 20pt;
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+
+        
+    }
+    .box
+    {
+        width: 270px;
+        height: 270px;
+        border: solid black 3px;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
+        .st1
+        {
+            background-image: url(./images/man-suit-is-looking-phone-another-man-is-looking-his-phone_1124223-3279.avif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            
+        }
+            .st1 img
+            {
+                width: 200px;
+            }
+        .st2
+        {
+            background-color: rgb(255, 149, 57);
+        }
+            .st2 img
+            {
+                width: 170px;
+                margin-top: 20px;
+            }
+        .st3
+        {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-image: url(./images/group-people-are-looking-tablet-with-one-holding-tablet-that-says-happy-people_946757-4621.jpg);
+        }
+            .st3 img
+            {
+                width: 200px;
+                margin-top: 10px;
+            }
+        .st4
+        {
+            background-color: limegreen;
+        }
+            .st4 img
+            {
+                width: 150px;
+                margin-top: 15px;
+            }
+    .st5
+    {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: url(./images/business-people-shaking-hands-together_53876-20488.jpg);
+    }
+        .st5 img
+        {
+            margin-top: 20px;
+            width: 150px;
+        }
+    .st6
+    {
+        background-color: aquamarine;
+    }
+        .st6 img
+        {
+            width: 150px;
+            margin-top: 20px;
+        }
+    footer
+    {
+        color: rgb(181, 186, 191);
+        text-align: center;
+        height: 250px;
+        background-color: rgb(30, 30, 30);
+        margin-top: 100px;
+        display: flex;
+        justify-content: center;
+        font-size: 10pt;
+    }
+        footer p
+        {
+            width: 500px;
+            padding-top: 50px;
+        }
+    .marginbox2
+    {
+        margin: 5px 0;
+    }
+}
 @media screen and (min-width: 340px) 
 {
     header
@@ -19,12 +181,14 @@
     }
     .shapka
     {
-        width: 400px;
+        
+        width: 100%;
+        padding: 10PX;
     }
         header img
         {
-            height: 70px;
-            width: 70px;
+            height: 60px;
+            width: 60px;
             float: left;
         }
     
@@ -55,7 +219,7 @@
     }
         .opis
         {
-            width: 400px;
+            width: 300px;
             font-size: 10pt;
             text-align: center;
             margin-bottom: 100px;
@@ -67,7 +231,7 @@
     {
         color: aliceblue;
         font-size: 20pt;
-        width: 300px;
+        width: 290px;
         display: flex;
         flex-wrap: wrap;
 
